@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Tracker from './components/Tracker';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>
           Sandbox project for RIF Analytics
         </p>
+        <Tracker />
       </header>
     </div>
   );
